@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": "images/icon48.png",
+      "default_title": "diknowのtrantool"
+   },
+   "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+   },
+   "default_locale": "en",
+   "description": "diknowのtrantool - AI Translation & Bilingual Subtitles",
+   "externally_connectable": { "matches": [ "https://www.viitor.info/*" ] },
+   "host_permissions": [ "<all_urls>" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 3,
+   "name": "diknowのtrantool",
+   "permissions": [ "activeTab", "scripting", "storage", "windows", "tabCapture", "offscreen" ],
+   "version": "2.0.6",
+   "web_accessible_resources": [ {
+      "matches": [ "<all_urls>" ],
+      "resources": [ "images/*", "offscreen.html", "offscreen.js", "audio-worklet-processor.js" ]
+   } ]
+}
